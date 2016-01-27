@@ -33,7 +33,6 @@ describe("quantities",function(){
 		g.addVertex('A');
 		g.addVertex('B');
 		g.addEdge('A','B');
-
 		assert.equal(1,g.size());
 	});
 	it("should provide the size of a graph with multiple edges",function(){
@@ -43,7 +42,6 @@ describe("quantities",function(){
 		g.addVertex('C');
 		g.addEdge('A','B');
 		g.addEdge('B','C');
-
 		assert.equal(2,g.size());
 	});
 	it("should provide the size of a graph with no edges",function(){
@@ -78,7 +76,6 @@ describe("paths",function(){
 		g.addEdge('A','B');
 		g.addEdge('B','C');
 		var path=g.pathBetween('A','C')
-
 		assert.deepEqual(['A','B','C'],path);
 	});
 
