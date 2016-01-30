@@ -8,7 +8,7 @@ describe("shortest path",function(){
 		var g=new graphs.WeightedGraph();
 		g.addVertex('A');
 		g.addVertex('B');
-
+		
 		var e1=new graphs.Edge("e1",'A','B',1);
 		g.addEdge(e1);
 
